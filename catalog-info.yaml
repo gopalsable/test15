@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: docker-webapp-message
+  description: Dockerized Node.js app showing a message
+  owner: user:default/testuser
+spec:
+  type: service
+  lifecycle: experimental
+  implementsApis: []
